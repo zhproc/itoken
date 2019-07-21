@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="demo00" />
+        <module name="demo02" />
+        <module name="demo03" />
+        <module name="euraka-zuul" />
+        <module name="springcloud-cinfig" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudapi" target="1.7" />
+      <module name="enrekaservice" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
